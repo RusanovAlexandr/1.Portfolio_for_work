@@ -41,11 +41,22 @@ body{
 .menu {
     display: flex;
     align-items: center;
+    
 }
+@media screen and (max-width: 768px) {
+    .menu {
+      display: block;
+      
+    }
+}
+
+
+
 
 .menu-item{
     margin-right: 70px;
     font-weight: bold;
+    
 }
 
 .hello {
@@ -90,15 +101,18 @@ body{
 
 
 
-.food-menu-h2 {text-align: center;
+.food-menu-h2 {
+    /* text-align: center; */
 }
 
 .food-menu-grid {
-    display: grid;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-  justify-items: center;
+  justify-items:center;
+  
 }
+  
 .food-menu-grid-item {
     text-align: center;
     /* width: 190px; */
@@ -140,15 +154,15 @@ body{
 
 .footer{
     width: 100%;
-    height: 100px;
+    height: 150px;
     padding-top: 30px;
-    background: linear-gradient(0deg, rgb(237, 164, 24) 47.396%,rgba(237, 164, 24, 0) 100%);
+    background: linear-gradient(0deg, rgb(247, 197, 106) 47.396%,rgba(237, 164, 24, 0) 100%);
     text-align: center;
 }
 
 .footer_top{
-    display: flex  ;
-    justify-content: space-between;
+    /* display: flex  ;
+    justify-content: space-between; */
 }
 
 .footer-logo img{

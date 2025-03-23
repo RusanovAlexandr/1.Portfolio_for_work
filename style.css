@@ -213,10 +213,11 @@ img {
 }
 
 .shadows{
-  box-shadow: 5px 5px 10px gray;
+  box-shadow: 3px 3px 5px gray;
 }
 
 .shadows:hover{
   /* box-shadow: 5px 5px 20px chocolate; */
-  box-shadow: 5px 5px 10px rgb(0, 0, 156);
-}
+  /* box-shadow: 5px 5px 10px rgb(0, 0, 156); */
+  box-shadow: 5px 5px 10px gray;
+} 

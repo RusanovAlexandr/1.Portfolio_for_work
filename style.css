@@ -37,14 +37,13 @@ img {
   width: 100%;
   height: 100px;
   margin: 0 auto;
+  box-shadow: 3px 3px 5px gray;
 
   /* background-color: #EDA418; */
-  background: linear-gradient(
-    180deg,
-    /* rgb(247, 197, 106) 47.396%, */
+  /* background: linear-gradient(180deg,
     rgb(100, 100, 255) 25%,
     rgba(237, 164, 24, 0) 100%
-  );
+  ); */
 }
 /* .first{
     display: flex;
@@ -149,6 +148,8 @@ img {
 
 .grid-item:hover{
     color: purple;
+    /* text-decoration: underline; */
+    font-weight: 600;
 }
 
 .img_grid {
@@ -188,14 +189,16 @@ img {
 .footer {
   width: 100%;
   height: 150px;
-  padding-top: 30px;
-  background: linear-gradient(
-    0deg,
+  margin-top: 10px;
+  padding-top: 15px;
+  /* background: linear-gradient(
+    0deg, */
     /* rgb(247, 197, 106) 47.396%, */
-    rgb(100, 100, 255) 5%,
+    /* rgb(100, 100, 255) 5%,
     rgba(237, 164, 24, 0) 100%
-  );
+  ); */
   text-align: center;
+  box-shadow: -3px -3px 5px gray;
 }
 
 .footer_top {
